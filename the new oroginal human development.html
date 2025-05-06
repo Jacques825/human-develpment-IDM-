@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Human Development Index (HDI)</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: white;
+      color: #000;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: skyblue;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      height: 80px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+      display: block;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      min-width: 220px;
+      z-index: 999;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li a {
+      padding: 10px 15px;
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ul li ul li a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 120px 40px 40px 40px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    
+
+    .text {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    
+  
+
+    .row {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .text-section {
+      flex: 1;
+    }
+
+    .video-section {
+      flex: 1;
+      text-align: center;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .explore-section {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .data-links {
+      margin-top: 40px;
+    }
+
+    .long-text {
+      margin-top: 40px;
+      text-align: ;
+    }
+
+    footer {
+      background-color: #006eb6;
+      color: white;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .social img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <img src="a.PNG">
+          <div>
+            <strong>Human<br>Development<br>Reports</strong>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a>
+              
+            </li>
+            <li><a href="#">Reports and Publications</a>
+              <ul>
+                <li><a href="#">HUMAN DEVELOPMENT REPORT 2023_2024</a></li>
+                <li><a href="#">TOWARDS 2025 HUMAN DEVELOPMENT REPORT</a></li>
+                <li><a href="#">2024 GLOBAL POVERTY INDEX(MPI)</a></li>
+                <li><a>2023 GENDER SOCIAL NORMS INDEX PUBLICATION</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Data Center</a>
+              <ul>
+                <li><a href="#">HUMAN DEVELOPMENT INDEX</a></li>
+                <li><a href="#">COUNTRY INSIGHT</a></li>
+                <li><a href="#">HUMAN CLIMATE HORIZONS DATA AND INSIGHT PLATFORM</a></li>
+                <li><a>THEMATIC COMPOSITE INDICES</a></li>
+                <li><a>DOCUMENTATION AND DOWNLOADS</a></li>
+              </ul>
+            </li>
+            <li><a href="#">News</a>
+              
+            </li>
+            <li><a href="#">About</a>
+              <ul>
+                <li><a href="#">HDRO TEAM</a></li>
+                <li><a href="#">WHAT IS HUMAN DEVELOPMENT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+    <section class="text">
+      <h1>Human Development Index (HDI)</h1>
+      <h3 class="dvd">
+        The HDI was created to emphasize that people and their capabilities
+        should be the ultimate criteria for assessing the development of a
+        country, not economic growth alone.
+      </h3>
+
+      <div class="social">
+        <span>SHARE</span>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/709/709496.png" alt="Print"></a>
+      </div>
+    </section>
+        <div class="video-section">
+          <video controls>
+            <source src="videos//A.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <section class="explore-section">
+        <h2>Explore HDI</h2>
+        <img src="images//img.jpeg" alt="HDI Image" style="max-width: 100%; height: auto;">
+      </section>
+
+      <section class="data-links">
+        <h2>Data Links</h2>
+        <p><span style="text-decoration: underline; color: red;">Download latest HDI dataset</span></p>
+      </section>
+
+      <section class="long-text">
+        <p>
+          The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living. The HDI is the geometric mean of normalized indices for each of the three dimensions. 
+          <br><br>
+          The health dimension is assessed by life expectancy at birth, the education dimension is measured by mean of years of schooling for adults aged 25 years and more and expected years of schooling for children of school entering age. The standard of living dimension is measured by gross national income per capita. The HDI uses the logarithm of income, to reflect the diminishing importance of income with increasing GNI. The scores for the three HDI dimension indices are then aggregated into a composite index using geometric mean. Refer to Technical notes for more details.
+          <br><br>
+          The HDI can be used to question national policy choices, asking how two countries with the same level of GNI per capita can end up with different human development outcomes. These contrasts can stimulate debate about government policy priorities.
+          <br><br>
+          The HDI simplifies and captures only part of what human development entails. It does not reflect on inequalities, poverty, human security, empowerment, etc. The HDRO provides other composite indices as broader proxy on some of the key issues of human development, inequality, gender disparity and poverty.
+          <br><br>
+          A fuller picture of a country's level of human development requires analysis of other indicators and information presented in the HDR statistical annex.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+          <img src="a.PNG" alt="UNDP Logo" style="height: 60px; display: block; margin-bottom: 10px;">
+          <p><img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" style="width: 16px; vertical-align: middle;"> Subscribe to HDRO Newsletter</p>
+        </div>
+        <div style="display: flex; flex: 3 1 700px; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+          <div>
+            <h4>REPORTS AND PUBLICATIONS</h4>
+            <p><a href="#">Human Development Report 2023–24</a></p>
+            <p><a href="#">Towards 2025 Human Development Report</a></p>
+          </div>
+          <div>
+            <h4>DATA CENTER</h4>
+            <p><a href="#">Human Development Index</a></p>
+            <p><a href="#">Country Insights</a></p>
+          </div>
+          <div>
+            <h4>NEWS</h4>
+            <p><a href="#">Updates</a></p>
+          </div>
+          <div>
+            <h4>ABOUT</h4>
+            <p><a href="#">HDRO Team</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+        </div>
+      </div>
+      <hr style="border-top: 1px solid white; margin: 30px auto; max-width: 1200px;">
+      <div style="max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; color: #ddd;">
+        <p>&copy; 2025 United Nations Development Programme</p>
+        <p><a href="#">Terms of use</a></p>
+        <div>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" style="width: 20px; margin-left: 10px;" alt="Facebook"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" style="width: 20px; margin-left: 10px;" alt="Twitter"></a>
+        </div>
+      </div>
+    </footer>
+  </form>
+
+</body>
+</html>
